@@ -30,7 +30,7 @@ const styles = theme => ({
 
   handleSearchInput = (e) => {
     this.setState({
-        [e.target.name] : e.target.value,
+        [e.target.name] : [e.target.value],
         isSearching: true
     })
 
@@ -50,7 +50,7 @@ const styles = theme => ({
   handleSubmit = (e) => {
     e.preventDefault()
     this.setState({
-      [e.target.name] : e.target.value,
+      [e.target.name] :[ e.target.value],
       isLoading: true,
       weatherLoaded: false,
     })
