@@ -47,3 +47,5 @@ $ npm start
 - [ ] Fix UI
 
 - [ ] Add animation
+
+- [ ] Get Social media around weather
