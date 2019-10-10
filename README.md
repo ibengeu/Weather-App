@@ -26,6 +26,7 @@ $ npm start
 ## Tech/Framework Used
 
 - Frontend - React.js
+- Redux
 - Api - [OpenWeatherMap](https://openweathermap.org/api)
 - UI - [MaterialUI](https://material-ui.com/)
 
